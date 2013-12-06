@@ -10,6 +10,6 @@ tags: []
 
 We want the whole world to make robots! (aka, hello world!)
 
-{% highlight javascript linenos %}
+{% highlight javascript linenos=table %}
 vmxApi('something').onEnter(function(){alert("hi, something"); });
 {% endhighlight %}
