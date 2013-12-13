@@ -1,0 +1,14 @@
+@import "recipes/background";
+@import "recipes/effect/ribbon";
+
+body
+{
+  overflow: hidden;
+}
+
+.top-right {
+  @include effect-ribbon-corner('top right', 20em, 3em);
+  a {
+    color: white; 
+  }
+}

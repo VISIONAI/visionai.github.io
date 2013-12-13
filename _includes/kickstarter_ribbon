@@ -1,0 +1,4 @@
+<div class="wrapper">
+       <div class="ribbon-wrapper-green"><div class="ribbon-green">NEWS</div></div>
+</div>
+<link href="{{ ASSET_PATH }}/css/ribbon.css" rel="stylesheet" type="text/css" media="all">
