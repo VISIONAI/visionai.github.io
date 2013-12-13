@@ -7,11 +7,6 @@ tags: []
 ---
 {% include JB/setup %}
 
+Hello, world!
 
-We want the whole world to make robots! (aka, hello world!)
-
-{% highlight javascript linenos=table %}
-vmxApi('something').onEnter(function(){alert("hi, something"); });
-// just another line
-void("to check the syntax");
-{% endhighlight %}
+We look forward to revolutionizing computer vision with your help.  Check back often.
