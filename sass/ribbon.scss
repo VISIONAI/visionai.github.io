@@ -1,14 +1,36 @@
 @import "recipes/background";
 @import "recipes/effect/ribbon";
+$break-small: 320px;
+$break-large: 1000px;
 
 body
 {
   overflow: hidden;
 }
 
-.top-right {
-  @include effect-ribbon-corner('top right', 20em, 3em);
-  a {
-    color: white; 
+@media screen and (min-width: $break-large) {
+  .top-right {
+    @include effect-ribbon-corner('top right', 20em, 3em,1);
+    a {
+      color: white; 
+    }
+  }
+}
+
+@media screen and (min-width: $break-small) {
+  .top-right {
+    @include effect-ribbon-corner('top right', 14em, 3em,1,'github');
+    a {
+      color: white; 
+    }
+  }
+}
+
+@media screen and (min-width: $break-large) {
+  .top-right {
+    @include effect-ribbon-corner('top right', 20em, 3em,1,'github');
+    a {
+      color: white; 
+    }
   }
 }
