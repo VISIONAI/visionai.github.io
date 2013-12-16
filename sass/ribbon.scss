@@ -5,7 +5,7 @@ $break-large: 1000px;
 
 body
 {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: $break-large) {

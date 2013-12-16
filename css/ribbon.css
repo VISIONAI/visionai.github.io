@@ -1,6 +1,6 @@
 /* line 7, ../sass/ribbon.scss */
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 1000px) {
