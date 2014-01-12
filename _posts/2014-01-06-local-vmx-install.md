@@ -14,4 +14,3 @@ Once the early-access period (March 2014 - June 2014) is over, VMX developers wi
 During our official launch in Summer 2014, a single-machine VMX license will be available to VMX Developers for $100. Kickstarter backers will be able to simply trade-in 100 of their VMX Compute Hours to obtain one single-machine license and download the software for their own use.
 
 The local VMX software will be installable directly on a computer running Linux. For VMX developers running MS Windows or Apple OS X, we will provide a Linux Virtual Image for download which will contain a pre-installed, and fully configured instance of VMX.
-
