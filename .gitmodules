@@ -1,6 +1,3 @@
-[submodule "compass_recipes"]
-	path = compass_recipes
-	url = https://github.com/MoOx/compass-recipes.git
 [submodule "compass-recipes"]
 	path = compass-recipes
-	url = git@github.com:gdoteof/compass-recipes.git
+	url = https://github.com/gdoteof/compass-recipes.git
