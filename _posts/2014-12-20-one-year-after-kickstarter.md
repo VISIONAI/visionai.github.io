@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "One year after VMX Kickstarter"
+title: "One year after the VMX Kickstarter"
 description: "post Kickstarter"
 category: "company"
 tags: []
