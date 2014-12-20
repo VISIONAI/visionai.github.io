@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-TL;DR Last year's Kickstarter campaign did not give us the $100k we were looking for. We built VMX anyways. We launched our own tiny online store.  You can buy a standalone "no internet connection required" version of our object recognition server today.
+TL;DR Last year's Kickstarter campaign did not give us the $100k we were looking for, so we built VMX anyways. We launched our own tiny online store.  You can [buy](https://beta.vision.ai/purchase) a standalone "no internet connection required" version of our VMX object recognition server today.
 
 People launch Kickstarter campaigns for all sorts of reasons. Some people have a cool product prototype and need resources for the first major production run. Sometimes personal expression is the driving force.  Yet, in other cases, a company appears to be already VC-backed, even doing quite well, and Kickstarter is used solely for promotional/marketing purposes.  Whatever you’re looking to get out of a Kickstarter campaign, launching and supporting a campaign is a great experience and I recommend it to most fledgling entrepreneurs.  Creating an advertisement for your idea and babysitting a campaign is an excellent way to get an idea out of your head and into a tangible form.  Allow me to share our very own [vision.ai](https://vision.ai) Kickstarter story.
 
