@@ -27,7 +27,9 @@ We didn’t get any money from Kickstarer, but we continued working on VMX. Havi
 
 #### How to get VMX
 
-VMX is available for download directly through our [vision.ai website](https://vision.ai).  Our software is still in beta, a standalone “no internet connection required” software license costs $100 for individuals, we offer a commercial version of our software, and are looking forward to getting our newest features out the door.  By purchasing a license today, you get access to our stable build, our development build, as well as future updates we will be releasing in the upcoming year.  We continue to be a bootstrapped tech company, currently operating out of two small offices located in Boston, MA and Burlington, VT. 
+<a href="http://vision.ai"><img src="/images/dec2014-visionai-homepage.jpg"></a>
+
+VMX is available for download directly through our [vision.ai website](https://vision.ai).  Our software is still in beta, a standalone “no internet connection required” software license costs $100 for individuals, we offer a commercial version of our software, and we are eagerly looking forward to getting our newest features out the door.  By purchasing a license today, you get access to our stable build, our development build, as well as future updates we will be releasing in the upcoming year.  We continue to be a bootstrapped tech company, currently operating out of two small offices located in Boston, MA and Burlington, VT. 
 
 Geoff and I will be doing more touring this year, showing off VMX to our colleagues, friends, and potential investors.  We will be visiting Hackerspaces, Universities, Hackathons, and Meetups.
 
