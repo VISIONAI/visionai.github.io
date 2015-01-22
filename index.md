@@ -1,7 +1,7 @@
 ---
 layout: page
-title: vision.ai
-tagline: Let our vision empower your vision.
+title: blog.vision.ai
+tagline: Let our vision empower your vision
 ---
 {% include JB/setup %}
 
@@ -12,14 +12,26 @@ tagline: Let our vision empower your vision.
         <h3 style="margin-bottom:0px">
         <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
         </h3>
-        &raquo; <span>{{ post.date | date_to_string }}</span> 
+        &raquo; <span>{{ post.date | date: '%B %d, %Y'}}</span> 
       </div>
-      <div>
-        <div class="well">
-          {{ post.content | strip_html | truncatewords:75}}
-        </div>
-        <div>
-          <a href="{{ post.url }}">Read more...</a><br><br>
+      <div class="container">
+        <div class="row">
+          {% if post.image != nil %}
+          <div class="col-md-2 col-lg-2">
+              <img src="/images/{{post.image}}" style="width:80%">
+          
+          </div>
+          <div class="col-md-8 col-lg-8">
+          {% else %}
+          <div class="col-md-12">
+          {% endif %}
+            <div>
+              {{ post.content | strip_html | truncatewords:40}}
+            </div>
+            <div>
+              <a href="{{ post.url }}">Read more...</a><br><br>
+            </div>
+          </div>
         </div>
       </div>
     </li>

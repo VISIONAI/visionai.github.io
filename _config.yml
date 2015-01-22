@@ -10,11 +10,23 @@ pygments: true
 #
 title : blog.vision.ai
 tagline: Let our vision empower your vision
-author :
-  name : vision.ai
-  email : admin@vision.ai
-  github : visionai
-  twitter : vision_ai
+authors:
+  admin:
+    name : vision.ai
+    email : admin@vision.ai
+    github : visionai
+    twitter : vision_ai
+  tom:
+    name: Tomasz Malisiewicz
+    display_name: Tomasz
+    twitter: quantombone
+    github: quantombone
+    web: https://vision.ai/contact/
+  geoff:
+    name: Geoff Golder
+    display_name: Geoff
+    github: gdoteof
+    web: https://vision.ai/contact/
 
 kickstarter_url : http://kickstarter.vmx.ai
 

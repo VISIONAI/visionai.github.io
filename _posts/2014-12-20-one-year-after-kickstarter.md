@@ -3,6 +3,7 @@ layout: post
 title: "One year after the VMX Kickstarter"
 description: "post Kickstarter"
 category: "company"
+image: dec2014-visionai-homepage.jpg
 tags: []
 ---
 {% include JB/setup %}

@@ -21,7 +21,7 @@
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet" type="text/css" media="all">
-
+    <link href="{{ ASSET_PATH }}/css/font-awesome.min.css" rel="stylesheet">
     <!-- Le fav and touch icons -->
     <link href="{{ ASSET_PATH }}/favico.ico" rel="shortcut">
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -62,12 +62,9 @@
               <a href="https://vision.ai">vision.ai Home</a>
             </li>
           </ul>
-
-
           </div>
         </div>
       </div>
-
 
       <div class="container">
         <br/>
@@ -76,10 +73,10 @@
         </div>
         <hr>
         <footer>
-          <p>&copy; {{ site.time | date: '%Y' }} <a href="https://vision.ai">{{ site.author.name }} </a></p>
-          <p><a href="/rss.xml">RSS</a></p>
+          <p>&copy; {{ site.time | date: '%Y'}} 
+            <a href="https://vision.ai">vision.ai </a><a style="float:right"
+          href="/rss.xml"><span class="fa fa-2x fa-rss"></span></a></p>
         </footer>
-
       </div>
       {% include JB/analytics %}
 <!-- Place this tag in your head or just before your close body --

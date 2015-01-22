@@ -3,6 +3,8 @@ layout: post
 title: "VMX Computer Vision Server 2015"
 description: "VMX 2015 Release"
 category: "VMX"
+author: tom
+image: app_builder_intro.png
 tags: []
 ---
 {% include JB/setup %}
