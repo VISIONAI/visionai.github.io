@@ -91,7 +91,7 @@ updating much faster.
 ### The future of Docker containers
 
 We are still providing our VMX Computer Vision server as a native Mac
-OS X installer [VMX.pkg](https://files.vision.ai/vmx/VMX.pkg), but I
+OS X installer [VMX.pkg](https://files.vision.ai/releases/VMX.pkg), but I
 look forward to the time where a single build can be shipped out to
 Windows, Mac OS X, Linux machines, and datacenters.
 
