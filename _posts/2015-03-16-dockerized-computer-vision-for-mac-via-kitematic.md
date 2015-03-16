@@ -15,10 +15,11 @@ wanting to explore applications that are shipped as Docker
 containers. Kitematic was recently
 [acquired by Docker](http://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/),
 giving them much credibility, and I was immediately excited as I'm
-always looking for new ways to deliver our flagship computer vision
-server to a larger audience.  In other words, maintaining and shipping
-multi-platform builds is not nearly as much fun as training object
-detectors. :-)
+always looking for new ways to deliver our computer vision and
+artificial intelligence applications to a larger, less techy,
+audience. Believe me, maintaining and shipping multi-platform
+builds is not nearly as much fun as training object detectors. :-)
+I'll be really excited once they have a Kitematic port to Windows.
 
 <img src="/images/kitematic.png" style="width:30%">
 
@@ -31,15 +32,14 @@ users who are savvy on the command line, as boot2docker gives you all
 of Docker's features like building your own images. If you're using
 Docker in your normal development workflow on Linux machines in the
 cloud (like us), then boot2docker for Mac is still highly
-recommended. If you haven't yet jumped on Docker bandwagon, you really
-should.
+recommended. If you haven't yet jumped on the Docker bandwagon, you
+really are missing out.
 
-However, if you just want to play with somebody's application,
-Kitematic provides an exceptional installation experience.  It assumes
-that the authors have already published their images on Docker Hub
-(which is true for many great applications, including our very own
-vision.ai software), and I'll be really excited once they have a
-Windows port.
+Kitematic provides an exceptional installation experience -- I'm
+pretty sure anybody on a Mac, even my grandma, can follow these
+instructions. It assumes that the authors have already published their
+images on Docker Hub (which is true for many great applications,
+including our very own vision.ai software).
 
 ### Want to install our vision.ai software via Kitematic?
 
@@ -88,18 +88,22 @@ which allows you to update and backup the data inside VMX.  The
 vmx-docker-manager runs our full multi-container application and makes
 updating much faster.
 
-### The future of Docker containers
-
 We are still providing our VMX Computer Vision server as a native Mac
 OS X installer [VMX.pkg](https://files.vision.ai/releases/VMX.pkg), but I
 look forward to the time where a single build can be shipped out to
 Windows, Mac OS X, Linux machines, and datacenters.
 
+
+### The future of Docker containers
+
+
 I see a future when more applications, especially scientific ones, are
 shipped as Docker Containers.  Docker makes development, deployment,
 and (as we can now see) distribution much easier and allows developers
-to get the same high-quality build that the authors are using.
+to get the same high-quality build that the authors are using.  Just
+imagine an ecosystem where bleeding edge research software is pushed
+out as Docker containers into everyone's hands.
 
-The next time you consider shipping shipping an application which is
-installable on Linux and requires Apache config files, a custom
-version of Python, just ask yourself: why not Docker?
+The next time you consider shipping shipping an application which
+requires Apache config files, a custom version of Python, maybe even a
+Matlab, just ask yourself: why not Docker?
