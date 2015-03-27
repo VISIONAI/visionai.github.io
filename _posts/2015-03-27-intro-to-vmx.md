@@ -4,6 +4,7 @@ title: "Intro to VMX"
 description: ""
 category: ""
 tags: []
+hidefront: 1
 ---
 {% include JB/setup %}
 

@@ -7,6 +7,7 @@ tagline: Let our vision empower your vision
 
 <ul class="posts">
   {% for post in site.posts %}
+  {% if post.hidefront != 1  %}
     <li>
       <div>
         <h3 style="margin-bottom:0px">
@@ -35,6 +36,8 @@ tagline: Let our vision empower your vision
         </div>
       </div>
     </li>
+
+  {% endif %}
   {% endfor %}
 </ul>
 
