@@ -33,8 +33,7 @@ following gist from Github (vmx_detect.sh), and make sure to have
 work on both Mac and Linux.
 
 **vmx_detect.sh**
-<script
-src="https://gist.github.com/quantombone/a1d80f9462d3ca7ebd02.js"></script>
+{% gist quantombone/a1d80f9462d3ca7ebd02 %}
 
 If you want to detect eyes in an image on your hard disk located in
 `/tmp/tom.jpg`, issue the following command in the terminal:
